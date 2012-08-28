@@ -569,7 +569,7 @@ def usage():
     print('  '+ me + ' --vault test --listuploads')
     print('  '+ me + ' --vault test --abortupload <MultipartUploadId>')
     print('  '+ me + ' --vault test --listparts <MultipartUploadId>')
-    print('  '+ me + ' --vault test --filename <filename> --resumeupload <MultipartUploadId>')
+    print('  '+ me + ' --vault test --filename <filename> --resume <MultipartUploadId>')
     print('  '+ me + ' --vault test --filename <filename> --checkhashes <MultipartUploadId>')
     print('  '+ me + ' --vault test --filename <filename> --repairparts <MultipartUploadId>')
     print('')
