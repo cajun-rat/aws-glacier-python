@@ -611,7 +611,7 @@ def main():
     for opt, arg in options:
         if opt in ['--region']:
             config[profile]['region'] = arg
-            config[profile]['host'] = 'glacier.' + region + '.amazonaws.com'
+            config[profile]['host'] = 'glacier.' + arg + '.amazonaws.com'
             saveConfig(config)
         elif opt in ['--vault']:
             vault = arg
