@@ -564,7 +564,7 @@ def usage():
     print('')
     print('  '+ me + ' --makevault test')
     print('  '+ me + ' --vault test --upload ~/examples.desktop')
-    print('  '+ me + ' --vault test --multipartupload ~/examples.desktop')
+    print('  '+ me + ' --vault test --mupload ~/examples.desktop')
     print('  '+ me + ' --vault test --delete <ArchiveId>')
     print('  '+ me + ' --vault test --listuploads')
     print('  '+ me + ' --vault test --abortupload <MultipartUploadId>')
